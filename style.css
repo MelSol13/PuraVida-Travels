@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(26, 26, 26, 0.518);
+    padding: 20px 10%;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+}
+
+.logo{
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.menu{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: rgb(226, 80, 43);
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner1{
+    background-image: url(./img/banner1.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 10%;
+}
+
+h1{
+    color: white;
+    font-size: 120px;
+}
+
+/*tamaño de la imagen*/
+.animal{
+    width: 300px;
+    object-fit: cover;
+}
+
+main{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 420px;
+    background-color: white;
+}
+
+.animales{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+h2{
+    color: red;
+    margin: 20px;
+}
